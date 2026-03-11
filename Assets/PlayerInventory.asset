@@ -1,0 +1,253 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb6619c6f86f5d744a4d3d3b92720dd4, type: 3}
+  m_Name: PlayerInventory
+  m_EditorClassIdentifier: 
+  slots:
+  - item: {fileID: 0}
+    count: 0
+    durability: -1
+    slot_index: -1
+  - item: {fileID: 11400000, guid: bcbaf314fbad3534b8b2256b1e2f29f5, type: 2}
+    count: 62
+    durability: -1
+    slot_index: -1
+  - item: {fileID: 11400000, guid: 49dc95d62dd7e8542b46907626981ada, type: 2}
+    count: 1
+    durability: -1
+    slot_index: 0
+  - item: {fileID: 11400000, guid: 671403c8484b5564bafa9c05e2dd0313, type: 2}
+    count: 64
+    durability: 0
+    slot_index: 0
+  - item: {fileID: 11400000, guid: f7a2a7f6888562049aae73cba7abae1f, type: 2}
+    count: 1
+    durability: -1
+    slot_index: 0
+  - item: {fileID: 11400000, guid: 0b7e9f5ca5d16f9479fa2cdffdab63e3, type: 2}
+    count: 20
+    durability: 0
+    slot_index: 0
+  - item: {fileID: 11400000, guid: e5f2dd2900e163f40ba3c965d92d1d49, type: 2}
+    count: 23
+    durability: -1
+    slot_index: -1
+  - item: {fileID: 11400000, guid: e27c8e8cbadf7fd4aa34a1452adc82af, type: 2}
+    count: 1
+    durability: 0
+    slot_index: -1
+  - item: {fileID: 11400000, guid: 671403c8484b5564bafa9c05e2dd0313, type: 2}
+    count: 64
+    durability: 0
+    slot_index: 8
+  - item: {fileID: 0}
+    count: 0
+    durability: -1
+    slot_index: -1
+  - item: {fileID: 11400000, guid: 0b7e9f5ca5d16f9479fa2cdffdab63e3, type: 2}
+    count: 24
+    durability: 0
+    slot_index: 0
+  - item: {fileID: 11400000, guid: 51f9183ff24f70540a0b2bea10b10b4f, type: 2}
+    count: 4
+    durability: 0
+    slot_index: 0
+  - item: {fileID: 11400000, guid: 671403c8484b5564bafa9c05e2dd0313, type: 2}
+    count: 62
+    durability: 0
+    slot_index: 0
+  - item: {fileID: 11400000, guid: 671403c8484b5564bafa9c05e2dd0313, type: 2}
+    count: 49
+    durability: 0
+    slot_index: 0
+  - item: {fileID: 11400000, guid: 0b7e9f5ca5d16f9479fa2cdffdab63e3, type: 2}
+    count: 25
+    durability: -1
+    slot_index: -1
+  - item: {fileID: 11400000, guid: 51f9183ff24f70540a0b2bea10b10b4f, type: 2}
+    count: 38
+    durability: 0
+    slot_index: -1
+  - item: {fileID: 11400000, guid: 51f9183ff24f70540a0b2bea10b10b4f, type: 2}
+    count: 64
+    durability: -1
+    slot_index: -1
+  - item: {fileID: 11400000, guid: 51f9183ff24f70540a0b2bea10b10b4f, type: 2}
+    count: 64
+    durability: -1
+    slot_index: -1
+  - item: {fileID: 0}
+    count: 0
+    durability: -1
+    slot_index: -1
+  - item: {fileID: 11400000, guid: e27c8e8cbadf7fd4aa34a1452adc82af, type: 2}
+    count: 1
+    durability: -1
+    slot_index: -1
+  - item: {fileID: 11400000, guid: 671403c8484b5564bafa9c05e2dd0313, type: 2}
+    count: 57
+    durability: 0
+    slot_index: 0
+  - item: {fileID: 11400000, guid: 671403c8484b5564bafa9c05e2dd0313, type: 2}
+    count: 49
+    durability: 0
+    slot_index: 0
+  - item: {fileID: 11400000, guid: 51f9183ff24f70540a0b2bea10b10b4f, type: 2}
+    count: 4
+    durability: 0
+    slot_index: 0
+  - item: {fileID: 11400000, guid: 0b7e9f5ca5d16f9479fa2cdffdab63e3, type: 2}
+    count: 12
+    durability: 0
+    slot_index: -1
+  - item: {fileID: 11400000, guid: 51f9183ff24f70540a0b2bea10b10b4f, type: 2}
+    count: 64
+    durability: -1
+    slot_index: -1
+  - item: {fileID: 11400000, guid: 51f9183ff24f70540a0b2bea10b10b4f, type: 2}
+    count: 64
+    durability: -1
+    slot_index: -1
+  - item: {fileID: 11400000, guid: 51f9183ff24f70540a0b2bea10b10b4f, type: 2}
+    count: 64
+    durability: -1
+    slot_index: -1
+  - item: {fileID: 11400000, guid: f31aa186aeaaba04aa2e0d01ca475b54, type: 2}
+    count: 1
+    durability: -1
+    slot_index: -1
+  - item: {fileID: 11400000, guid: f7a2a7f6888562049aae73cba7abae1f, type: 2}
+    count: 1
+    durability: 0
+    slot_index: -1
+  - item: {fileID: 11400000, guid: 03464cef0a1085e478ba429377e215ba, type: 2}
+    count: 1
+    durability: -1
+    slot_index: -1
+  - item: {fileID: 11400000, guid: 49dc95d62dd7e8542b46907626981ada, type: 2}
+    count: 1
+    durability: -1
+    slot_index: -1
+  - item: {fileID: 11400000, guid: 49dc95d62dd7e8542b46907626981ada, type: 2}
+    count: 1
+    durability: -1
+    slot_index: -1
+  - item: {fileID: 11400000, guid: e27c8e8cbadf7fd4aa34a1452adc82af, type: 2}
+    count: 1
+    durability: -1
+    slot_index: -1
+  - item: {fileID: 11400000, guid: 24ba1b3464024684e955bb82dc6140dc, type: 2}
+    count: 1
+    durability: -1
+    slot_index: -1
+  - item: {fileID: 11400000, guid: e27c8e8cbadf7fd4aa34a1452adc82af, type: 2}
+    count: 1
+    durability: -1
+    slot_index: -1
+  - item: {fileID: 11400000, guid: 671403c8484b5564bafa9c05e2dd0313, type: 2}
+    count: 49
+    durability: 0
+    slot_index: 0
+  - item: {fileID: 0}
+    count: 0
+    durability: -1
+    slot_index: -1
+  - item: {fileID: 0}
+    count: 0
+    durability: -1
+    slot_index: -1
+  - item: {fileID: 0}
+    count: 0
+    durability: -1
+    slot_index: -1
+  - item: {fileID: 0}
+    count: 0
+    durability: -1
+    slot_index: -1
+  - item: {fileID: 0}
+    count: 0
+    durability: -1
+    slot_index: -1
+  - item: {fileID: 0}
+    count: 0
+    durability: -1
+    slot_index: -1
+  - item: {fileID: 0}
+    count: 0
+    durability: -1
+    slot_index: -1
+  - item: {fileID: 0}
+    count: 0
+    durability: -1
+    slot_index: -1
+  - item: {fileID: 0}
+    count: 0
+    durability: -1
+    slot_index: -1
+  - item: {fileID: 0}
+    count: 0
+    durability: -1
+    slot_index: -1
+  Craftingslots:
+  - item: {fileID: 0}
+    count: 0
+    durability: -1
+    slot_index: -1
+  - item: {fileID: 0}
+    count: 0
+    durability: -1
+    slot_index: -1
+  - item: {fileID: 0}
+    count: 0
+    durability: -1
+    slot_index: -1
+  - item: {fileID: 0}
+    count: -3
+    durability: -1
+    slot_index: -1
+  - item: {fileID: 0}
+    count: 0
+    durability: -1
+    slot_index: -1
+  - item: {fileID: 0}
+    count: -5
+    durability: -1
+    slot_index: -1
+  - item: {fileID: 0}
+    count: -5
+    durability: -1
+    slot_index: -1
+  - item: {fileID: 0}
+    count: 0
+    durability: -1
+    slot_index: -1
+  - item: {fileID: 0}
+    count: -5
+    durability: -1
+    slot_index: -1
+  - item: {fileID: 0}
+    count: 0
+    durability: -1
+    slot_index: -1
+  Stoveslots:
+  - item: {fileID: 0}
+    count: 0
+    durability: -1
+    slot_index: -1
+  - item: {fileID: 0}
+    count: 0
+    durability: -1
+    slot_index: -1
+  - item: {fileID: 0}
+    count: 0
+    durability: -1
+    slot_index: -1

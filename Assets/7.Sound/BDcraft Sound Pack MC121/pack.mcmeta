@@ -1,0 +1,10 @@
+{
+  "pack": {
+    "description": "BDcraft Sounds Pack\nBest with PureBDcraft",
+    "pack_format": 34,
+    "supported_formats": {
+      "min_inclusive": 34,
+      "max_inclusive": 9999
+    }
+  }
+}
